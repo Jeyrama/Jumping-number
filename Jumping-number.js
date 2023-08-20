@@ -18,3 +18,5 @@ function jumpingNumber(n){
   }
   return 'Jumping!!'
 }
+
+// or
