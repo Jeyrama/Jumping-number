@@ -20,3 +20,5 @@ function jumpingNumber(n){
 }
 
 // or
+
+const jumpingNumber = n => n.toString().split``.every((e, i, a) => i < 1 || Math.abs(e - a[i - 1]) === 1) ? 'Jumping!!' : 'Not!!';
